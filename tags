@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DataFrameStyler	dataframestylerClass.py	/^class DataFrameStyler:$/;"	c
+__init__	dataframestylerClass.py	/^    def __init__(self, df: pd.DataFrame):$/;"	m	class:DataFrameStyler
+color_cells	dataframestylerClass.py	/^    def color_cells(self, color: str = 'yellow', condition=None) -> 'DataFrameStyler':$/;"	m	class:DataFrameStyler
+color_cells	dataframestylerMethods.py	/^def color_cells(df: pd.DataFrame, color: str = 'yellow', condition=None) -> pd.DataFrame:$/;"	f
+pd	dataframestylerClass.py	/^import pandas as pd$/;"	i
+pd	dataframestylerMethods.py	/^import pandas as pd$/;"	i
+render	dataframestylerClass.py	/^    def render(self) -> None:$/;"	m	class:DataFrameStyler
+style_font	dataframestylerClass.py	/^    def style_font(self, fontsize: int = 12, fontweight: str = 'normal', fontstyle: str = 'normal') -> 'DataFrameStyler':$/;"	m	class:DataFrameStyler
+style_font	dataframestylerMethods.py	/^def style_font(df: pd.DataFrame, fontsize: int = 12, fontweight: str = 'normal', fontstyle: str = 'normal') -> pd.DataFrame:$/;"	f
+styled_df	dataframestylerMethods.py	/^styled_df = (df.style$/;"	v
